@@ -164,5 +164,5 @@ def chat_with_course_pdf(course_id):
         logger.error("No PDF found for this course.")
         return jsonify({"error": "No PDF found for this course"}), 404
 
-#if __name__ == '__main__':
-   # app.run(debug=True, port=5003)
+if __name__ == '__main__':
+    app.run(debug=True, port=5003)
